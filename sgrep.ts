@@ -1,6 +1,6 @@
-import * as colors from "https://deno.land/std/fmt/colors.ts";
-import * as bufio from "https://deno.land/std/io/bufio.ts";
-import { parse, Args } from "https://deno.land/std/flags/mod.ts";
+import * as colors from "https://deno.land/std@0.50.0/fmt/colors.ts";
+import * as bufio from "https://deno.land/std@0.50.0/io/bufio.ts";
+import { parse, Args } from "https://deno.land/std@0.50.0/flags/mod.ts";
 
 function printUsage() {
   console.log("usage:");
